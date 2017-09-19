@@ -1,37 +1,79 @@
-## Welcome to GitHub Pages
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Amatic+SC|Architects+Daughter|BenchNine|Berkshire+Swash|Cuprum|Frijole|Handlee|Julius+Sans+One|Poiret+One|Pompiere|Tangerine|Kranky" rel="stylesheet">
+<style>
+body {
+	margin: 0em;
+	padding: 0em;
+	background-color: #330202;
 
-You can use the [editor on GitHub](https://github.com/rpavithra1225/mywebsite/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+}
+#container {
+	border: 2px solid #000;
+	border-width: 0px 2px;
+	color: #E7E7F1;
+	margin-left: -321px;
+	padding-bottom: 20px;
+	position: absolute;
+	left: 50%;
+	width: 642px;
+	background-color:  #130101;
+}
+#picture {
+	height:80px;
+	left: 50%
+	position: absolute;
+	text-align: top;
+	margin-bottom:30px;
+}
+p {
+	margin-left: 15px;
+	margin-right: 15px;
+	text-align: justify;
+	font-family: 'Poiret One', cursive;
+}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+h3 {
+	font-family: 'Architects Daughter', cursive;
+}
 
-### Markdown
+h1 {
+	font-family: 'Kranky', sans-serif;
+	font-size: 200%;
+}
+</style>
+</head>
+<body>
+<div id ="container">
+	 
+	
+	<div id ="picture">
+	
+		<img src =" " width="35" height="39" align="right">
+		<h1 align ="left"><span><br><font color="e9967a"><i> Hello! I'm Pavithra</i></font></span></h1>
+	<br/><br/>
+	</div>	
+	
+	<div id ="introduction">
+	<fieldset>
+	<legend><h3><span>About Me</span></h3> </legend>
+	<p><span>I am a Graduate student at NJIT majoring in Information Systems. I hold a Bachelor's degree in Computer Science and a Master's degree in Business Administration from IIM Bangalore. I worked with A.T.Kearney as a <i>Management Consultant</i> before which I worked as a <i>Software Developer</i> with Software AG, one of the leaders in API Management. My roles in the client engagements have been multi-dimensional ranging from performing data analysis for helping clients formulating strategy to new business development.During my work stints, I have been exposed to <i>Service Oriented Architecture, REST, GWT, PHP and HTML5</i>. I was a Scrum Master for my project team practising agile software development.</span><p>
+	</fieldset>
+	</div>
+	
+	<div id ="career goals">
+	<fieldset>
+	<legend><h3><span>My Career Goals</span></h3></legend>
+	<p><span>Curiosity lead me to ask "why?" and "how" from an early age, and lead me on my current journey. My passion lies in building great technology products. Yes, I am a <i>Product Enthusiast</i> and wish to get into Product Management in tech - an industry defined by challenging assumptions after my studies.</span><p>
+</fieldset>	
+</div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rpavithra1225/mywebsite/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+	<div id ="contact">
+	<fieldset>
+	<legend><h3><span>Contact Info</span></h3></legend>
+	<p><span>If you wish to know more about me or say a hi to me, please drop a mail at <a href="mailto:rpavithra60@gmail.com?" target="_top">rpavithra60@gmail.com</a>. I am also on <a href="https://www.linkedin.com/in/rpavithra12/">LinkedIn</a>.</span><p>
+	</fieldset>
+	</div>
+</div>
+</body>
+</html>
